@@ -1,0 +1,65 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+    overflow: hidden;
+}
+body{
+    background-image: url("/img/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#login{
+    width: 300px;
+    height: 350px;
+    background-image: linear-gradient(to top ,rgba(142, 142, 142, 0.818),rgba(255, 255, 255, 0.689));
+    margin-top: 10rem;
+}
+#logTxt{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    margin-top: 18px;
+    text-align: center;
+}
+.campTxt{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    color: rgb(0, 0, 0);
+    margin-left: 8px;
+}
+.areaTxt{
+    height: 25px;
+    width: 90%;
+    box-shadow: 2px 4px #888888;
+    outline: none;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+#entrar{
+    color: rgb(255, 255, 255);
+    background-color: rgb(24, 165, 212);
+    width: 80px;
+    height: 40px;
+    border: 0px;
+    border-radius: 10px;
+    margin-top: 14px;
+}
+#entrar:active{
+    background-color: #22dbf0;
+}
+#senhaLink{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    font-size: large;
+    color:#000000;
+}
